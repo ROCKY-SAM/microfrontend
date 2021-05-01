@@ -10,6 +10,9 @@
     <script type="systemjs-importmap">
       {
         "imports": {
+          "appThree":"http://localhost:8500/sameera-appThree.js",
+          "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+          "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
           "appOne": "http://localhost:4201/main.js",
           "appTwo": "http://localhost:4202/main.js",
           "navigation": "http://localhost:4203/main.js",
@@ -38,8 +41,8 @@
           <route path="appTwo">
             <application name="appTwo"></application>
           </route>
-          <route path="testOne">
-            <application name="testOne"></application>
+          <route path="appThree">
+            <application name="appThree"></application>
           </route>
         </div>
       </single-spa-router>
