@@ -1,4 +1,4 @@
-# Microfrontend
+# Micro frontend
 
 ## _Single-spa A javascript router for front-end microservices_
 
