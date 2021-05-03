@@ -1,6 +1,6 @@
 # microfrontend
 
-single-spa A javascript router for front-end microservices
+## _Single-spa A javascript router for front-end microservices_
 
 ![image](https://user-images.githubusercontent.com/12700182/116838712-0be3a800-abed-11eb-91a8-785465b7ddf0.png)
 
