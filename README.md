@@ -18,7 +18,7 @@ npm install -g create-single-spa
 npx create-single-spa
 ```
 
-# issues need to fix in angular
+# Issues need to fix in angular
 
 # Add to package.json
 ```sh
@@ -49,4 +49,14 @@ const routes: Routes = [
 export class AppRoutingModule { }
 ```
 
-
+# Issues need to fix in React
+```sh
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js"
+      }
+    }
+  </script>
+  ```
