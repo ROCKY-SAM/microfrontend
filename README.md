@@ -4,23 +4,23 @@ single-spa A javascript router for front-end microservices
 
 ![image](https://user-images.githubusercontent.com/12700182/116838712-0be3a800-abed-11eb-91a8-785465b7ddf0.png)
 
-#Applications types
+# Applications types
 	Angular appOne,appTwo, Navigation
 	React appThree
 
-#To install singleSPA
+# To install singleSPA
 
 npm install -g create-single-spa
 
-#To create singleSPA application 
+# To create singleSPA application 
 npx create-single-spa
 
-#issues need to fix in angular
+# issues need to fix in angular
 
-#Add to package.json
+# Add to package.json
 "@angular-builders/custom-webpack": "^8",
 	
-#Add to routing(angular)
+# Add to routing(angular)
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
