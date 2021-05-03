@@ -27,6 +27,7 @@ Create singleSPA application - React
 ![image](https://user-images.githubusercontent.com/12700182/116843326-3b021580-abfd-11eb-8110-06aec0554a32.png)
 
 Create singleSPA application  - Angular
+
 ![image](https://user-images.githubusercontent.com/12700182/116843396-77357600-abfd-11eb-8456-a9a27d3f87b5.png)
 
 
