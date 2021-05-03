@@ -18,6 +18,9 @@ npm install -g create-single-spa
 npx create-single-spa
 ```
 
+![image](https://user-images.githubusercontent.com/12700182/116843064-66383500-abfc-11eb-8023-577c596aa6d2.png)
+
+
 # Issues need to fix in angular
 
 ## _Add to package.json_
@@ -47,6 +50,17 @@ const routes: Routes = [
   ],
 })
 export class AppRoutingModule { }
+```
+
+## _Uncomment in index.ejs_
+
+
+```sh
+  <!--
+    If you need to support Angular applications, uncomment the script tag below to ensure only one instance of ZoneJS is loaded
+    Learn more about why at https://single-spa.js.org/docs/ecosystem-angular/#zonejs
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script>
 ```
 
 # Issues need to fix in React
