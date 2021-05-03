@@ -9,17 +9,22 @@ single-spa A javascript router for front-end microservices
 	React appThree
 
 # To install singleSPA
-
+```sh
 npm install -g create-single-spa
+```
 
 # To create singleSPA application 
+```sh
 npx create-single-spa
+```
 
 # issues need to fix in angular
 
 # Add to package.json
+```sh
 "@angular-builders/custom-webpack": "^8",
-	
+```
+
 # Add to routing(angular)
 
 ```sh
