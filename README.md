@@ -1,4 +1,4 @@
-# microfrontend
+# Microfrontend
 
 ## _Single-spa A javascript router for front-end microservices_
 
@@ -20,12 +20,12 @@ npx create-single-spa
 
 # Issues need to fix in angular
 
-# Add to package.json
+## _Add to package.json_
 ```sh
 "@angular-builders/custom-webpack": "^8",
 ```
 
-# Add to routing(angular)
+## _Add to routing(angular)_
 
 ```sh
 
