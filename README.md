@@ -18,6 +18,8 @@ npm install -g create-single-spa
 npx create-single-spa
 ```
 
+Configure root config application
+
 ![image](https://user-images.githubusercontent.com/12700182/116843064-66383500-abfc-11eb-8023-577c596aa6d2.png)
 
 
